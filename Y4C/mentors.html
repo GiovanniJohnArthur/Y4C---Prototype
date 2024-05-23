@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Linker - Mentorship</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            width: 40px;
+            height: 40px;
+        }
+        .logo span {
+            font-size: 24px;
+            margin-left: 10px;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+        }
+        .login-button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .main-section {
+            padding: 60px 20px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        .main-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .mentor-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .mentor-card {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            padding: 20px;
+        }
+        .mentor-card img {
+            width: 100%;
+            border-radius: 5px 5px 0 0;
+        }
+        .mentor-card h3 {
+            font-size: 20px;
+            margin: 20px 0 10px 0;
+        }
+        .mentor-card p {
+            font-size: 16px;
+            color: #777;
+        }
+        .mentor-card .details {
+            font-size: 14px;
+            color: #555;
+        }
+        .why-mentor-section {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .why-mentor-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .why-mentor-section p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+        .cta-section {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #f9f9f9;
+        }
+        .cta-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .cta-section p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 40px;
+        }
+        .cta-button {
+            background-color: #6c63ff;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Career Linker Logo">
+            <span>Career Linker</span>
+        </div>
+        <nav>
+            <a href="#">Opportunities</a>
+            <a href="#">Events</a>
+            <a href="#">Resources</a>
+            <a href="#">Mentorship</a>
+            <a href="#">About Us</a>
+        </nav>
+        <a href="#" class="login-button">Login</a>
+    </header>
+
+    <section class="main-section">
+        <h2>Our Mentors</h2>
+        <div class="mentor-cards">
+            <div class="mentor-card">
+                <img src="mentor1.jpg" alt="Mentor 1">
+                <h3>One-on-One Coaching</h3>
+                <p>by John Doe</p>
+                <div class="details">Some description about the coaching session and what to expect.</div>
+            </div>
+            <div class="mentor-card">
+                <img src="mentor2.jpg" alt="Mentor 2">
+                <h3>Group Coaching</h3>
+                <p>by Jane Smith</p>
+                <div class="details">Some description about the coaching session and what to expect.</div>
+            </div>
+            <div class="mentor-card">
+                <img src="mentor3.jpg" alt="Mentor 3">
+                <h3>Live Workshops</h3>
+                <p>by Mike Johnson</p>
+                <div class="details">Some description about the coaching session and what to expect.</div>
+            </div>
+            <div class="mentor-card">
+                <img src="mentor4.jpg" alt="Mentor 4">
+                <h3>Skills Training</h3>
+                <p>by Anna Lee</p>
+                <div class="details">Some description about the coaching session and what to expect.</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-mentor-section">
+        <h2>Why You Need a Mentor</h2>
+        <p>Mentors help you navigate your career path, overcome challenges, and achieve your professional goals.</p>
+        <div class="mentor-card">
+            <img src="mentor5.jpg" alt="Mentor 5">
+            <h3>John Doe</h3>
+            <p>Expert in career development and coaching with 10+ years of experience.</p>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <h2>Become the Best Version of Yourself</h2>
+        <p>Join our mentorship program today and take the first step towards a successful career.</p>
+        <a href="#" class="cta-button">Join Now</a>
+    </section>
+
+    <footer>
+        &copy; 2024 Career Linker. All Rights Reserved. | Privacy Policy | Terms of Service
+    </footer>
+
+</body>
+</html>

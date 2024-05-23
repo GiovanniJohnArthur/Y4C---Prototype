@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Linker - Events</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+        }
+        .events-section {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: white;
+        }
+        .events-section h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+            color: #2d2d2d;
+        }
+        .events-list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .event-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 80%;
+            max-width: 800px;
+            background-color: #ffffff;
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .event-date {
+            font-size: 32px;
+            font-weight: bold;
+            color: #2d2d2d;
+            text-align: center;
+            margin-right: 20px;
+        }
+        .event-details {
+            text-align: left;
+            flex-grow: 1;
+        }
+        .event-details h3 {
+            margin: 0;
+            font-size: 20px;
+            color: #2d2d2d;
+        }
+        .event-details p {
+            margin: 5px 0;
+            color: #777;
+        }
+        .event-details .location-time {
+            font-size: 14px;
+            color: #555;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .event-details .location-time svg {
+            width: 16px;
+            height: 16px;
+            fill: #777;
+        }
+        .contact-info {
+            margin-top: 40px;
+            text-align: center;
+            color: #2d2d2d;
+        }
+        .contact-info a {
+            color: #6c63ff;
+            text-decoration: none;
+            margin-right: 20px;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .contact-info a svg {
+            width: 16px;
+            height: 16px;
+            fill: #6c63ff;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="events-section">
+        <h2>Unlock Your Potential with Inspiring Events</h2>
+        <div class="events-list">
+            <div class="event-item">
+                <div class="event-date">
+                    05<br>June 2023
+                </div>
+                <div class="event-details">
+                    <h3>Breaking into Cybersecurity</h3>
+                    <p>Sanur, Bali</p>
+                    <div class="location-time">
+                        <svg viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/></svg>
+                        10:00 am - 02:00 pm
+                    </div>
+                </div>
+            </div>
+            <div class="event-item">
+                <div class="event-date">
+                    25<br>June 2023
+                </div>
+                <div class="event-details">
+                    <h3>Women in Tech Panel Discussion</h3>
+                    <p>Ubud, Bali</p>
+                    <div class="location-time">
+                        <svg viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/></svg>
+                        10:00 am - 02:00 pm
+                    </div>
+                </div>
+            </div>
+            <div class="event-item">
+                <div class="event-date">
+                    07<br>July 2023
+                </div>
+                <div class="event-details">
+                    <h3>Leadership Development Retreat</h3>
+                    <p>Canggu, Bali</p>
+                    <div class="location-time">
+                        <svg viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/></svg>
+                        10:00 am - 02:00 pm
+                    </div>
+                </div>
+            </div>
+            <div class="event-item">
+                <div class="event-date">
+                    15<br>July 2023
+                </div>
+                <div class="event-details">
+                    <h3>Mobile App Development Workshop</h3>
+                    <p>Ubud, Bali</p>
+                    <div class="location-time">
+                        <svg viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/></svg>
+                        10:00 am - 02:00 pm
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-info">
+            <a href="mailto:kelvinhemu@gmail.com">
+                <svg viewBox="0 0 24 24"><path d="M12 12.713l11.985-9.69c-.017-.016-4.56-.023-7.995-.023-1.31 0-2.667.003-4.004.003s-2.692-.003-4.002-.003c-3.441 0-7.979.007-7.995.023L12 12.713zM12 13.924L.015 4.257v15.742h23.97V4.257L12 13.924z"/></svg>
+                johnmadaha6@gmail.com
+            </a>
+            <a href="tel:+255622490094">
+                <svg viewBox="0 0 24 24"><path d="M19.085 15.553c-1.003-1.002-1.983-1.842-3.006-2.745-1.006-.897-2.104-.715-2.728.462-.466.877-1.133 1.054-1.947.72-1.007-.417-1.873-1.032-2.637-1.797-.737-.738-1.352-1.607-1.766-2.616-.336-.812-.157-1.478.722-1.944.558-.291.786-.725.776-1.348-.003-.646-.002-1.293-.001-1.94-.001-.84-.417-1.334-1.243-1.503-1.266-.264-2.495-.051-3.596.643C2.518 3.083 1.892 3.92 1.44 4.867c-.447.944-.605 1.946-.55 2.99.166 3.241 1.55 6.016 3.772 8.243 2.52 2.525 5.564 4.166 9.037 4.413 1.803.121 3.503-.22 5.056-1.157 1.134-.682 1.994-1.602 2.534-2.805.524-1.177.743-2.41.474-3.677-.164-.752-.651-1.156-1.398-1.176-.648-.017-1.297-.005-1.945-.003-.598.001-1.026.262-1.317.775-.54.948-.479 1.462.326 2.267z"/></svg>
+                +255 (689) 270732
+            </a>
+        </div>
+    </section>
+
+</body>
+</html>

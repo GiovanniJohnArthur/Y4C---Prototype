@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Linker</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            width: 40px;
+            height: 40px;
+        }
+        .logo span {
+            font-size: 24px;
+            margin-left: 10px;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+        }
+        .login-button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .main-section {
+            text-align: center;
+            padding: 100px 20px;
+            background-color: #f9f9f9;
+        }
+        .main-section h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .main-section p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 40px;
+        }
+        .main-section .cta-button {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .services-section {
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .services-section h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+        .service {
+            text-align: center;
+            width: 200px;
+        }
+        .service img {
+            width: 100px;
+            height: 100px;
+        }
+        .service h3 {
+            font-size: 20px;
+            margin: 20px 0;
+        }
+        .service p {
+            font-size: 16px;
+            color: #777;
+        }
+        .testimonials-section {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #f9f9f9;
+        }
+        .testimonials-section h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+        .testimonial {
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 18px;
+            color: #555;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .testimonial img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .testimonial p {
+            margin-bottom: 10px;
+        }
+        .testimonial span {
+            display: block;
+            font-size: 16px;
+            color: #777;
+        }
+        .partners-section {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .partners {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .partner img {
+            width: 100px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Career Linker Logo">
+            <span>Career Linker</span>
+        </div>
+        <nav>
+            <a href="#">Opportunities</a>
+            <a href="#">Events</a>
+            <a href="#">Resources</a>
+            <a href="#">Mentorship</a>
+            <a href="#">About Us</a>
+        </nav>
+        <a href="#" class="login-button">Login</a>
+    </header>
+
+    <section class="main-section">
+        <h1>Level Up Your Skills. Land Your Dream Job. Start with Skill Up</h1>
+        <p>Well curated and exclusive access to opportunities and industrial insights to cope up with the rapidly evolving industrial demands</p>
+        <a href="#" class="cta-button">Find out more</a>
+    </section>
+
+    <section class="services-section">
+        <h2>We Offer Best Services</h2>
+        <div class="services">
+            <div class="service">
+                <img src="internships.png" alt="Internships">
+                <h3>Internships</h3>
+                <p>Explore Internships Now. Start Your Internship Journey Today</p>
+            </div>
+            <div class="service">
+                <img src="hackathons.png" alt="Hackathons">
+                <h3>Hackathons</h3>
+                <p>Collaborate to develop solutions to real-world problems</p>
+            </div>
+            <div class="service">
+                <img src="tech_events.png" alt="Tech Events">
+                <h3>Tech Events</h3>
+                <p>Explore our calendar to discover upcoming events</p>
+            </div>
+            <div class="service">
+                <img src="community.png" alt="Community">
+                <h3>Community</h3>
+                <p>We deliver outsourced aviation services for military customers</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <h2>What People Say About Us</h2>
+        <div class="testimonial">
+            <img src="user.png" alt="User">
+            <p>"Career Linker transformed my career! Their courses, supportive community, and insightful events equipped me with the skills and network to land my dream job as a Data Analyst."</p>
+            <span>Mike Taylor, Lahore, Pakistan</span>
+        </div>
+        <div class="testimonial">
+            <img src="user.png" alt="User">
+            <p>"Career Linker transformed my career! Their courses, supportive community, and insightful events equipped me with the skills and network to land my dream job as a Data Analyst."</p>
+            <span>Chris Thomas, CEO of Red Button</span>
+        </div>
+    </section>
+
+    <section class="partners-section">
+        <h2>Trusted by 5k+ companies</h2>
+        <div class="partners">
+            <img src="luminous.png" alt="Luminous">
+            <img src="minty.png" alt="Minty">
+            <img src="nextmove.png" alt="Nextmove">
+            <img src="vision.png" alt="Vision">
+            <img src="mindfulness.png" alt="Mindfulness">
+            <img src="border.png" alt="Border">
+            <img src="snowflake.png" alt="Snowflake">
+            <img src="colab.png" alt="CoLab">
+        </div>
+    </section>
+
+</body>
+</html>

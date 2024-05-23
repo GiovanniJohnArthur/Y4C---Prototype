@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #ffffff;
+        }
+        .header img {
+            height: 40px;
+        }
+        .header nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #000;
+        }
+        .header .get-started {
+            padding: 10px 20px;
+            background-color: #d1e7fd;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+        .login-box {
+            background-color: #edf2f7;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .login-box h2 {
+            margin: 0 0 20px;
+            font-size: 24px;
+        }
+        .login-box p {
+            margin: 0 0 20px;
+            color: #6c757d;
+        }
+        .login-box input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+        }
+        .login-box .divider {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .login-box .divider::before,
+        .login-box .divider::after {
+            content: '';
+            flex: 1;
+            border-bottom: 1px solid #ced4da;
+        }
+        .login-box .divider::before {
+            margin-right: 10px;
+        }
+        .login-box .divider::after {
+            margin-left: 10px;
+        }
+        .login-box .social-login {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            background-color: #fff;
+        }
+        .login-box .social-login img {
+            height: 20px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="logo.png" alt="Career Linker Logo">
+        <nav>
+            <a href="#">Opportunities</a>
+            <a href="#">Events</a>
+            <a href="#">Resources</a>
+            <a href="#">Mentorship</a>
+            <a href="#">About us</a>
+        </nav>
+        <button class="get-started">Get started</button>
+    </header>
+
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Log in</h2>
+            <p>Don't have an account? <a href="#">Sign up</a></p>
+            <input type="email" placeholder="Your email">
+            <input type="password" placeholder="Password">
+            <div class="divider">OR</div>
+            <div class="social-login">
+                <img src="apple_logo.png" alt="Apple Logo"> Continue with Apple
+            </div>
+            <div class="social-login">
+                <img src="google_logo.png" alt="Google Logo"> Continue with Google
+            </div>
+            <div class="social-login">
+                <img src="twitter_logo.png" alt="Twitter Logo"> Continue with Twitter
+            </div>
+        </div>
+    </div>
+</body>
+</html>

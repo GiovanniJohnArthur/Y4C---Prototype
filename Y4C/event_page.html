@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Linker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #ffffff;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: black;
+            margin: 0 15px;
+        }
+        .navbar .get-started {
+            background-color: #d0d9ff;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .carousel {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .carousel .arrow {
+            cursor: pointer;
+            font-size: 24px;
+            margin: 0 20px;
+        }
+        .carousel .card {
+            width: 300px;
+            height: 400px;
+            margin: 0 10px;
+            background-color: #333;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            position: relative;
+        }
+        .carousel .card img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        .carousel .card .content {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+        .carousel .card .content h3 {
+            margin: 0;
+        }
+        .carousel .card .content p {
+            margin: 5px 0;
+        }
+        .carousel .card .content a {
+            color: white;
+            text-decoration: none;
+            background-color: #555;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Career Linker Logo">
+        </div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Opportunities</a>
+            <a href="#">Resources</a>
+            <a href="#">Mentorship</a>
+            <a href="#">About us</a>
+            <a href="#" class="get-started">Get started</a>
+        </div>
+    </div>
+    <div class="carousel">
+        <div class="arrow" id="prev">&lt;</div>
+        <div class="card">
+            <img src="event1.jpg" alt="Event 1">
+            <div class="content">
+                <h3>Rochelle Fernandez</h3>
+                <p>Learn about no-code tools</p>
+                <p>Live Event</p>
+                <p>₹499/-</p>
+                <a href="#">Event Details</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="event2.jpg" alt="Event 2">
+            <div class="content">
+                <h3>Regina Phalange</h3>
+                <p>Nail your interviews</p>
+                <p>Live Event</p>
+                <p>₹499/-</p>
+                <a href="#">Event Details</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="event3.jpg" alt="Event 3">
+            <div class="content">
+                <h3>Learn to launch your first product online</h3>
+                <p>Live Event</p>
+                <p>₹499/-</p>
+                <a href="#">Event Details</a>
+            </div>
+        </div>
+        <div class="arrow" id="next">&gt;</div>
+    </div>
+</body>
+</html>
